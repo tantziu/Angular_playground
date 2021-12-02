@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm, NgModel } from '@angular/forms';
 import { Observable } from 'rxjs';
-import { DataService } from './data.service';
+import { DataService } from './user-settings.service';
 import { IUserSettings } from './user-settings';
 
 @Component({
